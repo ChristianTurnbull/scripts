@@ -1,0 +1,47 @@
+cat <<EOL > .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.dylib
+
+# Caching files
+*.cache
+*.lock
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Virtual environments
+venv/
+虚拟环境/
+.env
+.venv
+env/
+ENV/
+
+# Python test files
+*.pyc
+*.pyo
+*.pytest_cache/
+
+# Build artifacts
+/build/
+/dist/
+/compiled/
+/out/
+
+# IDE and editor files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.class
+*.jar
+*.war
+*.ear
